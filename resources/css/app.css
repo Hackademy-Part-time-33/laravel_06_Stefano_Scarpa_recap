@@ -1,0 +1,20 @@
+@import 'bootstrap';
+
+:root {
+    --white: #fafafa;
+    --black: #080808;
+    --primary-color: #3f69ff;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-custom {
+    color: var(--white);
+}
+
+.bg-custom {
+    background-color: var(--white);
+    color: var(--black);
+}
