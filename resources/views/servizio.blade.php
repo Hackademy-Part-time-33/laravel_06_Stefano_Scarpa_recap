@@ -24,26 +24,21 @@
                     @endif
                     <form action="{{ route('send') }}" method="POST">
                         @csrf
-                        <div class="mb-3">
-                            <label class="form-label">Nome</label>
-                            <input class="form-control rounded-5" type="text" name="fullname" value="{{old('fullname')}}"/>
+                        <div class="mb-4 shadow rounded-5">
+                            <input class="form-control border-0" type="text" name="fullname" placeholder="Nome" value="{{old('fullname')}}"/>
                         </div>
-                        <div class="mb-3">
-                            <label class="form-label">Telefono</label>
-                            <input class="form-control rounded-5" type="text" name="phone" value="{{old('phone')}}"/>
+                        <div class="mb-4 shadow rounded-5">
+                            <input class="form-control border-0" type="text" name="phone" placeholder="Telefono" value="{{old('phone')}}"/>
                         </div>
-                        
-                        <div class="mb-3">
-                            <label class="form-label">Email</label>
-                            <input class="form-control rounded-5" type="email" name="email" value="{{old('email')}}"/>
+                        <div class="mb-4 shadow rounded-5">
+                            <input class="form-control border-0" type="email" name="email" placeholder="E-mail" value="{{old('email')}}"/>
                         </div>
                         
-                        <div class="mb-3">
-                            <label class="form-label">Messaggio</label>
-                            <textarea class="form-control" type="text" name="message" placeholder="Scrivi qui il tuo messaggio..." style="height: 10rem;">{{old('message')}}</textarea>
+                        <div class="mb-4 shadow rounded-3">
+                            <textarea class="form-control border-0" type="text" name="message" placeholder="Scrivi qui il tuo messaggio..." style="height: 5rem;">{{old('message')}}</textarea>
                         </div>
                         <div class="d-grid">
-                            <button class="btn btn-primary btn-lg rounded-5">Invia</button>
+                            <button class="btn btn-primary btn-lg rounded-5 shadow">Invia</button>
                         </div>
                         
                     </form>

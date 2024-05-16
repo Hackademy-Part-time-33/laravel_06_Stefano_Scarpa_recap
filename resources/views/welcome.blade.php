@@ -3,7 +3,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 p-0">
-        <img src="./assets/img-cover.jpg" class="img-fluid" alt="img-cover">
+        <img src="./assets/img-cover.jpg" class="img-fluid img-cover" alt="img-cover">
       </div>
     </div>
   </div>
